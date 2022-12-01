@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zadanie domowe 5-index</title>
+    <title>Zadanie domowe 6-index</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,10 +48,72 @@
             <div class="div-belka">
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
+
                         <button class="close-modal" data-modal-close><svg class="icon-close" width="30" height="30">
                                 <use xlink:href="./images/icon.svg#icon-close"></use>
                             </svg></button>
+                        <p class="modal-p">Zostaw swoje dane w formularzu poniżej</p>
+                        <form class="modal-form-name">
+                            <fieldset class="modal-fieldset">
+                                <label class="label" for="name">Imie</label>
+                                <svg class="form-svg">
+                                    <use href="images/icon.svg#icon-person"></use>
+                                </svg>
+                                <input class="form-name" type="text">
+                            </fieldset>
+                        </form>
+                        <form class="modal-form-tel">
+                            <fieldset class="modal-fieldset">
+                                <label class="label" for="telefon">Telefon</label>
+                                <svg class="form-svg">
+                                    <use href="images/icon.svg#icon-tel"></use>
+                                </svg>
+                                <input class="form-name" type="text">
+                            </fieldset>
+                        </form>
+                        <form class="modal-form-email">
+                            <fieldset class="modal-fieldset">
+                                <label class="label" for="email">Email</label>
+                                <svg class="form-svg">
+                                    <use href="images/icon.svg#icon-mail"></use>
+                                </svg>
+                                <input class="form-name" type="text">
+                            </fieldset>
+                        </form>
+                        <form class="modal-form-komentarz">
+                            <fieldset class="modal-fieldset">
+                                <label class="label" for="komentarz">Komentarz</label>
+                                <input class="form-komentarz" placeholder="Wprowadź tekst" type="text">
+                            </fieldset>
+                        </form>
+                        <div >
+                        <form class="modal-checkbox">
+                            <label>
+                              <input type="checkbox" name="checkbox"/>
+                              <svg class="svg-checked">
+                                <use href="images/icon.svg#icon-check"></use>
+                            </svg>
+                            <svg class="svg-check">
+                                <use href="images/icon.svg#ramka"></use>
+                            </svg>
+                              <!-- <span class="check-input">
+                                <svg class="svg-checked">
+                                    <use href="images/icon.svg#icon-check"></use>
+                                </svg>
+                                <svg class="svg-check">
+                                    <use href="images/icon.svg#ramka"></use>
+                                </svg> 
+                                
+                              </span> -->
+                              <span class="span-modal-checkbox">Oświadczam iż akceptuje</span><a class="Regulamin" href="#">Regulamin</a><span class="span-modal-checkbox">i</span><a class="Polityka" href="#">Polityke Prywatności.</a>
+                            </label>
+                        </form>
+                        </div>
+                        <div class="button-modal">
+                            <button type="button" class="button-wyslij">Zamów usługę</button>
+                        </div>
                     </div>
+                    
                 </div>
                 <h1 class="belka">EFEKTYWNE ROZIĄZANIA<br>
                     DLA WASZEGO BIZNESU
@@ -362,6 +424,23 @@
                                     <use xlink:href="./images/icon.svg#icon-linkedin-1"></use>
                                 </svg>
                             </a>
+                        </div>
+                    </div>
+                    <div class="footer-input">
+                        <p class="footer-p-email">ZAPISZ SIE DO NEWSLETTERA</p>
+                        <div class="footer-input-text" width="44" height="44">
+                            <form class="footer-form-email">
+                                <fieldset class="modal-fieldset">
+                                    <input class="footer-email" type="text" placeholder="E-mail">
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="button-email">
+                            <button type="button" class="footer-button-email"><p class="button-zapisz">Zapisz sie</p>
+                            <svg class="footer-button-svg">
+                                <use xlink:href="./images/icon.svg#icon-send"></use>
+                            </svg>
+                            </button>
                         </div>
                     </div>
                 </div>

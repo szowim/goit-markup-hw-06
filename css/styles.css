@@ -421,6 +421,7 @@ ul {
 .button-modal {
 	display: flex;
 	padding-top: 30px;
+	padding-right: 30px;
 	justify-content: center;
 }
 .button-wyslij {

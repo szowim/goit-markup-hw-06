@@ -421,10 +421,11 @@ ul {
 .button-modal {
 	display: flex;
 	padding-top: 30px;
-	padding-right: 30px;
 	justify-content: center;
 }
 .button-wyslij {
+	width: 200px;
+	height: 50px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;

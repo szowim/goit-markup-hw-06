@@ -265,6 +265,7 @@ ul {
 }
 .modal-form {
 	padding-left: 40px;
+	padding-right: 40px;
 }
 .form-name {
 	border: 1px solid #21212133;
@@ -859,6 +860,7 @@ ul {
 	display: flex;
 }
 .footer-email {
+	color: rgb(255, 255, 255);
 	padding-left: 10px;
 	outline: 0;
 	display: flex;
@@ -869,7 +871,7 @@ ul {
 	border: 1px solid #ffffff4d;
 }
 .button-email {
-	display: flex;
+	/* display: flex; */
 	padding-left: 12px;
 }
 

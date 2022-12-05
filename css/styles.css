@@ -264,6 +264,7 @@ ul {
 	cursor: pointer;
 }
 .modal-form {
+	position: relative;
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -339,9 +340,6 @@ ul {
 	position: relative;
 	border: none;
 	
-}
-.modal__form {
-	position: relative;
 }
 .form-svg {
 	width: 15px;
@@ -435,8 +433,9 @@ ul {
 	box-shadow: 0px 4px 4px 0px #00000026;
 	border-radius: 4px;
 	border: none;
-	padding: 10px 41px 10px 42px;
 	cursor: pointer;
+	padding-left: 42px;
+	padding-top: 10px;
 }
 .button-index {
 	font-weight: 700;
@@ -869,6 +868,7 @@ ul {
 	height: 50px;
 	border-radius: 4px;
 	border: 1px solid #ffffff4d;
+	color: rgb(255, 255, 255);
 }
 .button-email {
 	/* display: flex; */
@@ -883,6 +883,7 @@ ul {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border: none;
+	
 }
 
 .button-zapisz {

@@ -23,7 +23,6 @@ ul {
 	max-width: 1200px;
 	padding: 0 15px;
 }
-
 .adress {
 	text-decoration: none;
 	font-style: normal;
@@ -64,7 +63,6 @@ ul {
 	line-height: 1.19;
 	color: rgb(255, 255, 255);
 }
-
 .top-link {
 	position: relative;
 	display: flex;
@@ -75,7 +73,6 @@ ul {
 	gap: 46px;
 	justify-content: space-between;
 }
-
 .link {
 	list-style-type: none;
 	text-decoration: none;
@@ -206,7 +203,6 @@ ul {
 	font-size: 14px;
 	color: #757575;
 }
-
 .div-belka {
 	display: flex;
 	flex-flow: column;
@@ -241,7 +237,6 @@ ul {
 .modal {
 	display: flex;
 	flex-direction: column;
-
 	width: 528px;
 	height: 581px;
 	background: #ffffff;
@@ -264,7 +259,6 @@ ul {
 	cursor: pointer;
 }
 .modal-form {
-	position: relative;
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -340,6 +334,9 @@ ul {
 	position: relative;
 	border: none;
 	
+}
+.modal__form {
+	position: relative;
 }
 .form-svg {
 	width: 15px;
@@ -433,9 +430,8 @@ ul {
 	box-shadow: 0px 4px 4px 0px #00000026;
 	border-radius: 4px;
 	border: none;
+	padding: 10px 41px 10px 42px;
 	cursor: pointer;
-	padding-left: 42px;
-	padding-top: 10px;
 }
 .button-index {
 	font-weight: 700;
@@ -507,7 +503,6 @@ ul {
 .opis-li {
 	flex-basis: calc((100% - 90px) / 4);
 }
-
 .zajmujemy {
 	padding-top: 94px;
 	display: flex;
@@ -525,7 +520,6 @@ ul {
 	display: flex;
 	align-items: flex-start;
 	list-style-type: none;
-
 	justify-content: center;
 	gap: 30px;
 }
@@ -585,7 +579,6 @@ ul {
 	transition: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .klienci-svg {
 	fill: var(--svg-color);
 	transition: 250ms;
@@ -601,7 +594,6 @@ ul {
 .person-section {
 	padding-top: 94px;
 }
-
 .nasz-zespol-background {
 	margin: 0 auto;
 	width: 100%;
@@ -656,7 +648,6 @@ ul {
 .opis_p {
 	margin: 0;
 }
-
 .portfolio {
 	padding: 50px 0 94px;
 }
@@ -667,7 +658,6 @@ ul {
 	justify-content: space-between;
 	gap: 30px;
 }
-
 .li-portfolio {
 	flex-basis: calc((100% - 60px) / 3);
 	transition: 250ms;
@@ -676,7 +666,6 @@ ul {
 .li-portfolio:hover {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .portfolio-div {
 	border: 1px solid #eee;
 	border-top: none;
@@ -693,7 +682,6 @@ ul {
 	height: 100%;
 	transform: translateY(101%);
 	transition: transform 250ms;
-
 	background-color: rgba(33, 150, 243, 0.9);
 	font-size: 18px;
 	line-height: 1.55;
@@ -727,7 +715,6 @@ ul {
 .portfolio-ahref {
 	text-decoration: none;
 }
-
 .header-wrapper {
 	display: flex;
 	align-items: center;
@@ -794,7 +781,6 @@ ul {
 .elipsa:hover .socialmedia {
 	fill: #ffffff;
 }
-
 .elipsa:hover {
 	background-color: var(--logo-color);
 	border-radius: 50%;
@@ -868,13 +854,11 @@ ul {
 	height: 50px;
 	border-radius: 4px;
 	border: 1px solid #ffffff4d;
-	color: rgb(255, 255, 255);
 }
 .button-email {
-	/* display: flex; */
+	display: flex;
 	padding-left: 12px;
 }
-
 .footer-button-email {
 	display: flex;
 	width: 200px;
@@ -883,9 +867,7 @@ ul {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border: none;
-	
 }
-
 .button-zapisz {
 	display: flex;
 	font-size: 16px;
@@ -894,7 +876,6 @@ ul {
 	padding-left: 42px;
 	padding-top: 10px;
 }
-
 .footer-button-svg {
 	width: 24px;
 	height: 24px;
